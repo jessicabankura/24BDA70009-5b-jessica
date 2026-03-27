@@ -1,0 +1,29 @@
+{
+  "name": "24bda70006-5b-pritesh-kumar-pandey",
+  "version": "1.0.0",
+  "description": "Student Management System using MVC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pritesh23-P/24BDA70006-5b-Pritesh-Kumar-Pandey.git"
+  },
+  "keywords": [],
+  "author": "Pritesh Kumar Pandey",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

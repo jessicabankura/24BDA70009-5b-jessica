@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+    <div class="form-container card animate-fade" style="text-align: center; border-color: var(--danger);">
+        <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: var(--danger); margin-bottom: 1rem;"></i>
+        <h1 style="color: var(--danger);">System Error</h1>
+        <p class="text-muted" style="margin: 1.5rem 0;">
+            <%= error %>
+        </p>
+        <a href="/" class="btn btn-primary">Return to Safety</a>
+    </div>
+
+    <%- include('partials/footer') %>
