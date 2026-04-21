@@ -45,7 +45,7 @@ cd your-repo-name
 2. Install dependencies
 
 ```
-npm install
+pnpm install
 ```
 
 3. Create a .env file in the root directory
@@ -58,7 +58,7 @@ MONGO_URI=your_mongodb_atlas_connection_string
 4. Run the application
 
 ```
-npm run dev
+pnpm dev
 ```
 
 Open in browser:
